@@ -1,0 +1,198 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+h1 {
+   position: relative;
+   text-align: center;
+}
+
+
+
+body {
+   /*border: black 4px solid;*/
+   font-family: sans-serif;
+   line-height: 1.4;
+}
+
+article {
+   border: black 4px solid;
+   width: 850px;
+   margin: 50px auto;
+   position: relative;
+
+
+}
+
+h3 {
+   text-transform: uppercase;
+   font-size: 16px;
+   margin-bottom: 15px;
+}
+
+/*SYMPOL OF LIST*/
+ul {
+   list-style-type: square;
+   margin-left: 20px;
+}
+
+
+
+li {
+   margin-bottom: 10px;
+   padding-right: 25px;
+}
+
+article::after {
+   content: "SALE";
+   background-color: #ec2f2f;
+   color: white;
+   font-size: 12px;
+   padding: 7px 15px;
+   /*width: 40px;
+      text-align: center;*/
+   display: inline-block;
+   font-weight: bold;
+   letter-spacing: 2px;
+   position: absolute;
+   top: -17px;
+   left: -38px;
+}
+
+.d1,
+.d2,
+.d3,
+.d4,
+.d5,
+.d6 {
+   margin-right: 10px;
+   height: 22px;
+   width: 22px;
+   margin-top: 30px;
+   display: inline-block;
+}
+
+
+
+/*H2: Converse Chuc...*/
+.second-head {
+   background-color: #f7f7f7;
+   text-transform: uppercase;
+   text-align: center;
+   font-size: 22px;
+   padding: 15px;
+}
+
+
+.price {
+   font-size: 24px;
+   /*margin-top: 20px;*/
+}
+
+/*FREE SHIPPING*/
+.shipping {
+   text-transform: uppercase;
+   color: #777;
+   font-size: 12px;
+   font-weight: bold;
+
+}
+
+/*article p:nth-child(3) {
+   font-weight: 510;
+}*/
+.container {
+   display: flex;
+   gap: 40px;
+   /*flex: 1;*/
+}
+
+
+.left {
+   /*width:243px;*/
+   flex: 1;
+   margin-top: 20px;
+}
+
+.right {
+   flex: 1;
+   margin-top: 20px;
+
+}
+
+.advantage {
+   margin-bottom: 10px;
+}
+
+.ship {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin-bottom: 20px;
+}
+
+
+
+.colors {
+   display: flex;
+   gap: 10px;
+}
+
+
+
+/* BUTTON*/
+.button {
+   background-color: black;
+   color: white;
+   border: none;
+   font-size: 20px;
+   text-transform: uppercase;
+   cursor: pointer;
+   width: 100%;
+   border-top: black solid 4px;
+   padding: 15px;
+}
+
+.button:hover {
+   background-color: white;
+   color: black;
+
+}
+
+/*MORE-INFORMATION-LINK*/
+.more:link,
+.more:visited,
+.more:hover {
+   color: black;
+   text-decoration: underline;
+}
+
+.more:hover {
+   text-decoration: none;
+}
+
+.d1 {
+   background-color: black;
+}
+
+.d2 {
+   background-color: #2f6ee2;
+}
+
+.d3 {
+   background-color: #ec2f2f
+}
+
+.d4 {
+   background-color: #f0bf1e
+}
+
+.d5 {
+   background-color: #90cc20
+}
+
+.d6 {
+   background-color: #885214;
+}
